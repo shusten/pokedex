@@ -1,0 +1,35 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.aboutDescription {
+    background-image: url('../../public/poke-about.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    margin-top: 5%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); 
+}
+
+.textAbout {
+    position: relative;
+    text-align: center;
+    color: rgb(58, 57, 57);
+}
+
+.textAbout h1{
+  margin-bottom: 30px;
+}
