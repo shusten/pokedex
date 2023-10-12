@@ -4,7 +4,7 @@
     align-items: center;
     padding: 1em 1.2em;
     margin-bottom: 1.5em;
-    background-color: #fc3f3f;
+    background: linear-gradient(135deg, rgba(255,0,0,1) 0%, rgba(247,97,0,1) 36%, rgba(148,0,168,1) 81%);
     color: #fff;
 }
 
